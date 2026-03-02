@@ -12,8 +12,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Input } from "@/components/ui/input";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogFooter } from "@/components/ui/dialog";
 import { useLanguage } from '../components/LanguageContext';
-import JSZip from 'jszip';
-import { saveAs } from 'file-saver';
+
 import { toast } from "sonner";
 
 export default function Onboarding() {
